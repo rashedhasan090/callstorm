@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "callstorm"
+version = "0.1.0"
+description = "Offline CLI: detect retry storms, ping-pong loops, and burst anomalies in agent tool-call JSONL"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Rashed Hasan" }]
+keywords = ["agents", "llm", "tool-calls", "jsonl", "defensive", "ci"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+callstorm = "callstorm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

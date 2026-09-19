@@ -1,0 +1,5 @@
+{"tool": "list_dir", "arguments": {"path": "."}, "timestamp": 2000.0, "ok": true}
+{"tool": "read_file", "arguments": {"path": "README.md"}, "timestamp": 2005.0, "ok": true}
+{"tool": "search", "arguments": {"q": "TODO"}, "timestamp": 2012.0, "ok": true}
+{"tool": "read_file", "arguments": {"path": "src/main.py"}, "timestamp": 2020.0, "ok": true}
+{"name": "run_tests", "args": {"suite": "unit"}, "ts": 2030.0, "success": true}

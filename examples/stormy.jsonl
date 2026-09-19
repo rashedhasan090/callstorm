@@ -1,0 +1,16 @@
+{"tool": "search", "arguments": {"q": "auth"}, "timestamp": 1000.0, "ok": true}
+{"tool": "search", "arguments": {"q": "auth"}, "timestamp": 1001.0, "ok": false, "error": "timeout"}
+{"tool": "search", "arguments": {"q": "auth"}, "timestamp": 1002.0, "ok": false, "error": "timeout"}
+{"tool": "search", "arguments": {"q": "auth"}, "timestamp": 1003.0, "ok": false, "error": "timeout"}
+{"tool": "search", "arguments": {"q": "auth"}, "timestamp": 1004.0, "ok": false, "error": "timeout"}
+{"tool": "read_file", "arguments": {}, "timestamp": 1010.0}
+{"tool": "read_file", "arguments": {}, "timestamp": 1011.0}
+{"tool": "read_file", "arguments": {}, "timestamp": 1012.0}
+{"tool": "shell", "arguments": {"cmd": "ls"}, "timestamp": 1020.0}
+{"tool": "read_file", "arguments": {"path": "a"}, "timestamp": 1021.0}
+{"tool": "shell", "arguments": {"cmd": "ls"}, "timestamp": 1022.0}
+{"tool": "read_file", "arguments": {"path": "a"}, "timestamp": 1023.0}
+{"tool": "shell", "arguments": {"cmd": "ls"}, "timestamp": 1024.0}
+{"tool": "read_file", "arguments": {"path": "a"}, "timestamp": 1025.0}
+{"tool": "shell", "arguments": {"cmd": "ls"}, "timestamp": 1026.0}
+{"tool": "read_file", "arguments": {"path": "a"}, "timestamp": 1027.0}
